@@ -1,0 +1,27 @@
+*** Starting uWSGI 2.0 (64bit) on [Wed Apr 30 08:49:18 2014] ***
+compiled with version: 4.6.3 on 12 March 2014 16:12:50
+os: Linux-3.2.0-58-generic #88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013
+nodename: sergio
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/sergio/workspace/colegio
+detected binary path: /home/sergio/entornos/eb/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15844
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :9000 fd 3
+Python version: 2.7.3 (default, Sep 26 2013, 20:13:52)  [GCC 4.6.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x86fe30
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72760 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x86fe30 pid: 2200 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 2200, cores: 1)
